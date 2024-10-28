@@ -62,14 +62,17 @@ The API should now be accessible at `http://localhost:8080`.
 
 ## API Endpoints
 
-| Method | Endpoint             | Description                              |
-|--------|----------------------|------------------------------------------|
-| POST   | `/posts`             | Create a new blog post                   |
-| GET    | `/posts`             | Get all blog posts                       |
-| GET    | `/posts/{id}`        | Get a single blog post by ID             |
-| PUT    | `/posts/{id}`        | Update a blog post by ID                 |
-| DELETE | `/posts/{id}`        | Delete a blog post by ID                 |
-| GET    | `/posts?term={term}` | Filter blog posts by a search term       |
+| Method | Endpoint             | Description                        |
+|--------|----------------------|------------------------------------|
+| -      | `/`                  | Swagger UI                         |
+| GET    | `/health`            | Check the health of application    |
+| POST   | `/posts`             | Create a new blog post             |
+| GET    | `/posts`             | Get all blog posts                 |
+| GET    | `/posts/{postId}`    | Get a single blog post by ID       |
+| PUT    | `/posts/{postId}`    | Update a blog post by ID           |
+| DELETE | `/posts/{postId}`    | Delete a blog post by ID           |
+| GET    | `/posts?term={term}` | Filter blog posts by a search term |
+
 
 ### Example Requests
 
