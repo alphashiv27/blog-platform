@@ -1,4 +1,4 @@
-# Personal Blogging Platform API
+# [Personal Blogging Platform API](https://roadmap.sh/projects/blogging-platform-api)
 
 This project is a RESTful API for a personal blogging platform built with Spring Boot and MongoDB. The API allows users to perform basic CRUD (Create, Read, Update, Delete) operations for managing blog posts. Users can create, update, delete, retrieve, and search blog posts based on a term.
 
