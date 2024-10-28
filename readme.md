@@ -10,6 +10,8 @@ This project is a RESTful API for a personal blogging platform built with Spring
 - **Delete a Blog Post**: Remove a blog post by ID.
 - **Search**: Use a search term to filter posts based on title, content, or category.
 
+![img.png](img.png)
+
 ## Getting Started
 
 ### Prerequisites
